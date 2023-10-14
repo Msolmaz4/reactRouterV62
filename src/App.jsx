@@ -23,6 +23,7 @@ function App() {
       <NavLink to='/' >Anasayfa</NavLink>
       <NavLink to='/contact'> Contact</NavLink>
       <NavLink to='/blog'> blog</NavLink>
+      <NavLink to='/profil'> profil</NavLink>
     </nav>
     <Routes>
       <Route path='/' element={<Home/>}></Route>
